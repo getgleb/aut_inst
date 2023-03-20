@@ -108,7 +108,6 @@ def protect():
                 time.sleep(1)
                 nnow = browser.find_element(By.XPATH, nnow_butt2).click()
                 name = input('Введите ник в инстаграмме: ')
-
                 browser.get(f'http://instagram.com/{name}/')
                 time.sleep(1)
                 nnow = browser.find_element(By.XPATH, subs_butt).click()
